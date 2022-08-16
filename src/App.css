@@ -1,0 +1,23 @@
+.App {
+  width: 100%;
+  position: relative;
+  left: 0;
+  z-index: 0;
+  background-color: #fff;
+  -webkit-transition: left;
+  -moz-transition: left;
+  -o-transition: left;
+  transition: left;
+  -webkit-transition-duration: 375ms;
+  -moz-transition-duration: 375ms;
+  -o-transition-duration: 375ms;
+  transition-duration: 375ms;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+}

@@ -1,0 +1,25 @@
+.new__block-links{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+
+/*Tablet & mobile*/
+@media (min-width: 63.9375em) and (max-width: 80em) {
+    .new__block-links{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+}
+/*Mobile*/
+@media (max-width: 46.1875em) {
+    
+}
